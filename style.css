@@ -5,14 +5,14 @@
 }
 
 body {
-    background: white;
+    background: rgb(254, 255, 247);
     font-size: 18px;
     font-family: 'Belleza', sans-serif;
 }
 
 h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 1em;
+    font-size: 80px;
     width: 400px;
     margin: auto;
     line-height: 100px;
@@ -32,11 +32,12 @@ p {
 }
 
 button {
-    margin-top: 15px;
+    margin-top: 35px;
     padding: 10px;
     border: none;
     font-weight: 800;
     font-family: 'Raleway', sans-serif;
+    border-radius: 3px;
 }
 
 button:focus {
@@ -44,23 +45,24 @@ button:focus {
 }
 
 .example_b {
-    font-size: 15px;
-    color: #fff !important;
-    text-transform: uppercase;
-    text-decoration: none;
-    background: #c0392b;
-    padding: 10px;
-    display: inline-block;
+    font-family: 'Raleway', sans-serif;
     border: none;
-    transition: all 0.4s ease 0s;
-    outline: 0;
+    background: #fff6ea;
+    color: #c0392b;
+    font-weight: 100;
+    padding: 10px;
+    font-size: 10px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
 }
 
 .example_b:hover {
-    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
-    -webkit-box-shadow: 0px 5px 40px -10px rgba(255, 255, 255, 1);
-    -moz-box-shadow: 0px 5px 40px -10px rgba(255, 255, 255, 1);
-    transition: all 0.4s ease 0s;
+    color: #c0392b;
+    letter-spacing: 3px;
+    background: none;
+    transition: all 0.3s ease 0s;
 }
 
 /*WRAPPER*/
@@ -80,13 +82,9 @@ button:focus {
     position: absolute;
     background-image: url("1.png");
     background-color: #cccccc;
-    /* Used if the image is unavailable */
     background-position: center;
-    /* Center the image */
     background-repeat: no-repeat;
-    /* Do not repeat the image */
     background-size: cover;
-    /* Resize the background image to cover the entire container */
     width: 100%;
     height: 100%;
     right: 0px;
@@ -115,13 +113,9 @@ button:focus {
 #inside {
     background-image: url("2.png");
     background-color: #cccccc;
-    /* Used if the image is unavailable */
     background-position: center;
-    /* Center the image */
     background-repeat: no-repeat;
-    /* Do not repeat the image */
     background-size: cover;
-    /* Resize the background image to cover the entire container */
     z-index: 0;
     position: absolute;
     background-color: white;
@@ -131,17 +125,15 @@ button:focus {
 }
 
 #inside-title {
-    font-family: 'Playfair Display', serif;
-    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
     margin: auto;
     width: 500px;
     color: #2e266d;
     font-weight: 700;
     text-align: center;
-    margin-top: 160px;
-    font-style: italic;
-    line-height: 50px;
-    margin-bottom: 30px;
+    margin-top: 140px;
+    margin-bottom: 10px;
 
 }
 
@@ -152,18 +144,20 @@ button:focus {
 
 .inside-sub {
     font-family: 'Raleway', sans-serif;
-    color: #7a73aa;
-    font-size: 15px;
-    font-weight: 800;
+    color: #2e266d;
+    opacity: .8;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 700;
     text-transform: uppercase;
 }
 
 #message {
     color: #c0392b;
-    font-size: 12pt;
+    font-size: 11pt;
     text-align: center;
     font-weight: 400;
-    margin: 0px 70px 0px 70px;
+    margin: 0px 90px 10px 90px;
     font-family: 'Raleway', sans-serif;
 
 }
