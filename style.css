@@ -68,7 +68,7 @@ button:focus {
 /*WRAPPER*/
 #wrapper {
     margin: 0px auto 0;
-    width: 500px;
+    width: 450px;
     position: relative;
     top: 5vh;
     background: rgb(248, 248, 248)(170, 155, 155);
