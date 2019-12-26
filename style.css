@@ -38,6 +38,7 @@ button {
     font-weight: 800;
     font-family: 'Raleway', sans-serif;
     border-radius: 3px;
+  
 }
 
 button:focus {
@@ -50,12 +51,13 @@ button:focus {
     background: none;
     color: #c0392b;
     font-weight: 100;
-    padding: 10px;
+    padding: 5px;
     font-size: 10px;
     text-transform: uppercase;
     border-radius: 6px;
     display: inline-block;
     transition: all 0.3s ease 0s;
+    border: 1px solid #da6f64;
 }
 
 .example_b:hover {
